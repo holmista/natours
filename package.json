@@ -1,0 +1,38 @@
+{
+  "name": "natours",
+  "version": "1.0.0",
+  "description": "learning node",
+  "main": "app.js",
+  "scripts": {
+    "start:prod": "cross-env ENV=production nodemon server.js",
+    "start": "cross-env ENV=development nodemon server.js",
+    "debug": "ndb server.js"
+  },
+  "author": "tornike buchukuri",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.13.9",
+    "morgan": "^1.10.0",
+    "nodemailer": "^6.7.0",
+    "slugify": "^1.6.0",
+    "validator": "^13.6.0"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.24.2",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.25.1",
+    "ndb": "^1.1.5",
+    "nodemon": "^2.0.12",
+    "prettier": "^2.4.0"
+  }
+}
